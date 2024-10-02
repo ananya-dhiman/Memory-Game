@@ -1,0 +1,225 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.header{
+  width:100%;
+  background-color: lightsalmon;
+  height:115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.h1{
+  color: #333;
+  text-align: center;
+  font-size:50px;
+  font-weight: 800;
+}
+
+
+.body {
+  display: flex;
+  justify-content: space-between;
+
+  align-items:flex-start;
+  margin:auto;  
+  background-color: #242424;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+  .inputs{
+    display:flex;
+    flex-flow: column;
+    margin-top: 25px;
+    margin-right: 0; 
+    width:45%;
+    padding:10px;
+    
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+  }
+ 
+  input{
+    padding: 5px;
+  }
+
+ 
+
+  .f3.f1.f3{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  label{
+    align-self: flex-start;
+  }
+  label,input{
+    margin:5px;
+  }
+
+  .f1 p,
+  .f2 p,
+  .f3 p
+  {
+    font-size: 24px;
+    font-weight: 800;
+    color:lightsalmon;
+    text-align: center;
+  }
+
+
+  /* input.css */
+
+
+
+
+.inputs label {
+
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.inputs input,
+.inputs textarea {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: lightgray;
+}
+
+.inputs textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* CV Display section */
+.cvdisplay {
+  width:45%;
+  margin-right:300px;
+  margin-top:150px;
+  border-left: 2px solid #ddd;
+  margin-left: 0;
+  padding: 20px;
+}
+
+.cvdisplay .o1,
+.cvdisplay .o2,
+.cvdisplay .o3 {
+  margin-bottom: 20px;
+}
+
+#color{
+  
+  
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  
+ 
+}
+
+#head{
+
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+
+}
+#head p{
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  
+  
+}
+#name p{
+  color:lightsalmon;
+  font-size: 35px;
+  font-weight: 800;
+  
+
+}
+
+.cvdisplay h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.cvdisplay p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+#head p::before{
+  content: "|";
+  left: 0;
+  color: #555;
+}
+
+/* CV-like appearance */
+.cvdisplay {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+}
+
+.cvdisplay h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.cvdisplay p {
+  font-size: 16px;
+  color: #444;
+
+}
+
+.cvdisplay .o1 {
+  margin-bottom: 30px;
+}
+
+.cvdisplay .o2,
+.cvdisplay .o3 {
+  margin-bottom: 20px;
+}
+
+.cvdisplay .o1 p {
+  font-size: 18px;
+}
+
+
+.cvdisplay .o2 p,
+.cvdisplay .o3 p {
+  padding-left: 0;
+}
