@@ -86,7 +86,7 @@ export function Game() {
 
    //Event handler function on clicking card
    const handleEvent= (id) =>{
-    alert("Clicked!!"+id);
+    
     // update scoreboard using Immer
     setCheck(draft=>{
       draft[id]+=1;
