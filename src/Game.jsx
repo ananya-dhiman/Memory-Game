@@ -92,11 +92,6 @@ export function Game() {
       draft[id]+=1;
 
     });
-
-
-
-   
-
     /*
      setCheck(check[id]++); Wrong!!!!
     How to do it using useState
@@ -108,11 +103,9 @@ export function Game() {
     newCheck[id] += 1;
     setCheck(newCheck);
   */
-    max_score=Math.max(new_score,max_score);
-    setMax_score(max_score);
-    
-    setCheck(check);
+
     for(var i=0;i<check.length;i++){
+      console.log(check[i]);
       if(check[i]>1){
         setCheck([0,0,0,0,0,0,0,0]);
         status=1;
@@ -124,6 +117,11 @@ export function Game() {
       }
 
     }
+    max_score=Math.max(new_score,max_score);
+    setMax_score(max_score);
+    
+    
+   
     //Game goes on
     if(status==0){
      
@@ -183,8 +181,11 @@ export function Game() {
   
     return (
         <>
+        
         <div className="header">
-        <h1>Pokecard</h1>
+        <h1>POKECARD
+
+        </h1>
         
         
         <div className='score'>
